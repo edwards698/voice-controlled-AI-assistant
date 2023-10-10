@@ -38,4 +38,23 @@ Set up your OpenAI API key by editing the api_key variable in your Python script
 ```python
 api_key = 'your_api_key_here'
 ```
-you can get your API key by signing up for OpenAI's services on their website ```https://openai.com/```
+you can get your API key by signing up for OpenAI's services on their website ### ```https://openai.com/```
+
+### Additional Dependencies
+Depending on your operating system, you might need additional dependencies for audio playback and microphone access. Make sure to install any system-specific requirements.
+For example, on Linux, you may need to install ALSA
+```shell
+sudo apt-get install alsa
+```
+### Running the Code
+With the virtual environment activated and the required libraries installed, you can run the Python script. Simply execute the script
+```shell
+python your_script_name.py
+```
+Replace your_script_name.py with the actual name of your Python script.
+
+By following these steps, you can set up the required libraries in your virtual environment, ensuring that your AI assistant code runs smoothly. Additionally, using a virtual environment helps keep your project isolated and organized.
+
+### User Interaction:
+The assistant can answer questions or engage in conversations with the user.
+The user can ask questions like "What's your name?", and the assistant responds accordingly.

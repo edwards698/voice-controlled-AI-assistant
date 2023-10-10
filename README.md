@@ -21,3 +21,13 @@ source my_env/bin/activate  # On Linux/macOS
 # OR
 my_env\Scripts\activate    # On Windows
 ```
+Once your virtual environment is active, you can install the required libraries using pip. Make sure you have the latest version of pip installed.
+
+### Install Required Libraries
+
+```shell
+pip install openai
+pip install playsound
+pip install gtts
+pip install SpeechRecognition
+```

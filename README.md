@@ -38,7 +38,7 @@ Set up your OpenAI API key by editing the api_key variable in your Python script
 ```python
 api_key = 'your_api_key_here'
 ```
-you can get your API key by signing up for OpenAI's services on their website ### ```https://openai.com/```
+you can get your API key by signing up for OpenAI's services on their website (https://openai.com/)
 
 ### Additional Dependencies
 Depending on your operating system, you might need additional dependencies for audio playback and microphone access. Make sure to install any system-specific requirements.

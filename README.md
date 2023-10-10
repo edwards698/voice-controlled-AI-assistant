@@ -11,4 +11,13 @@ To run this code in your own virtual environment, you'll need to set up the nece
 ### Create a Virtual Environment (Optional but Recommended)
 You can create a virtual environment to isolate your project dependencies. This step is optional but recommended for managing library versions and avoiding conflicts with other Python projects.
 
-``bash``
+### bash
+```
+# Create a virtual environment (replace 'my_env' with your preferred name)
+python -m venv my_env
+
+# Activate the virtual environment
+source my_env/bin/activate  # On Linux/macOS
+# OR
+my_env\Scripts\activate    # On Windows
+```

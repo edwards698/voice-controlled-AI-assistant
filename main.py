@@ -1,9 +1,9 @@
 '''
 :Author: Edward Phiri
-:Email: edwardohirijr698@gmail.com
+:Email: edwardphirijr698@gmail.com
 :Date: 19/08/2023
-:Revision: version 1.0
-:License: [Yes]
+:version: 1.0
+:Public: [Yes]
 '''
 #import open AI module 
 import openai
